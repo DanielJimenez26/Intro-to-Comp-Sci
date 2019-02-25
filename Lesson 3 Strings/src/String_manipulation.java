@@ -28,7 +28,10 @@ public class String_manipulation {
       //int x = 11;
       //System.out.println("\\");
       //System.out.println("\\\n\\");
-    System.out.println("I \"Love\" \nBooks");		  
+    //System.out.println("I \"LOVE\" \nBooks");
+    String x = "I Love Books";
+    System.out.println(x.substring(2,6).toUpperCase());
+    
         
 		
 		
