@@ -14,21 +14,21 @@ public class Lesson3_1 {
        
        //String g = "Computer Science is for nerds";
        //System.out.println(g.toLowerCase());
-       
+     
        //String c;
        //String m = "The Gettysburg Address";
-       //c = m.substring(4);
+      // c = m.substring(4);
        
        //System.out.println(c = m.substring(4));
        
        //String b = "Four score and seven years ago";
        //String c = b.substring(7,12); 
-       
+     
        //System.out.println(c = b.substring(7,12));
 		
-	   //int count; 
-       //String s = "Surface tenseion";
-       //System.out.println(count = s.length());
+	   int count; 
+       String s = "Surface tension";
+       System.out.println(count = s.length());
 		
 		//String m = "Look here!";
 		//int count;
@@ -40,10 +40,10 @@ public class Lesson3_1 {
 		
 		//System.out.println("A backslash looks like this \\, ...right?");
 		
-		String pq = "Eddie Haskel";
-		int hm = pq.length();
+		//String pq = "Eddie Haskel";
+		//int hm = pq.length();
 		//String ed = pq.substring(hm - 4);
-		System.out.println(hm);
+		//System.out.println(hm);
 		
 	}
 	
