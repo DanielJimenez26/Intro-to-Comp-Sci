@@ -16,6 +16,10 @@ public class Lession3_2 {
     System.out.println(word.substring(0,5).toUpperCase()+"\n is "  + word.substring(8,12).toUpperCase());
     word = "Every Way The Wind Blows";
     System.out.println(word.substring(0,5).toLowerCase()+" "+ word.substring(6,9).toUpperCase() +" "+ word.substring(10,13) +"" + "\\" + "" + word.substring(14,18).toUpperCase());
-	}
+    word = "Peter Piper Picked A Peck Of Picked Peppers";
+    System.out.println(word.substring(19,43)+"       "+ word.substring(36,43).toLowerCase()+" "+ word.substring(0,11)+"      "+ word.substring(11,18).toLowerCase());
+    word = "word has 4 letters";
+    System.out.println("\"" + word.substring(9,10) + "\"" + " "+ word.substring(11,18) + " " + word.substring(5,8) + " " + "\"9\"" + " " + word.substring(11,18));
+}
 
 }
