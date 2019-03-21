@@ -37,6 +37,7 @@ public class Lesson4_1 {
      System.out.println(7%3+j+++(j-2));
      
      
+     
 	}
 
 }
