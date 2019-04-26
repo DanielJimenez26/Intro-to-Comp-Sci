@@ -1,6 +1,6 @@
 
 public class Lesson_5_Casting_Constant {
-	
+	//Random
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		final double E = 2.718;
