@@ -25,6 +25,7 @@ public class Lesson_6_Math_Class {
 		System.out.println(Math.log(18));
 		
 		
+		
 	}
 
 }
