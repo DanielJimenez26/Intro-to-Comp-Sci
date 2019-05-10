@@ -10,6 +10,7 @@
 		System.out.println("you Are " + age + " Years Old!");
 		System.out.println("Next year you will be " + ++age + "Years Old!");
 		inputScan.close();
+		
 	}
 
 }
