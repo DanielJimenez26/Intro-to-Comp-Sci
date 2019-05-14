@@ -18,6 +18,7 @@
 		System.out.println("Each players has an average weight of" + weight + "lbs");
 		System.out.println("The league has a combined weight on" + weight*teams*players + "lbs");
 		inputScan.close();
+		
 	}
 
 }
