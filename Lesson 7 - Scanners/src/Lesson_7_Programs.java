@@ -19,8 +19,19 @@ public class Lesson_7_Programs {
 //		number = name2.nextInt();
 //		System.out.println(name.substring(0,number));
 		
-		Scanner math1 = new Scanner(System.in);
-		int 
+//		Scanner math1 = new Scanner(System.in);
+//		System.out.println("Please enter your A value");
+//		int math = math1.nextInt();
+//		System.out.println("Please enter your B value");
+//		int math2 = math1.nextInt();
+//		double answer = Math.sqrt(Math.pow(math, 2) + Math.pow(math2,2));
+//		System.out.println("Square root of 3.0 sqaured + 4.0 squared =" + " " + answer);
+		
+		Scanner quad = new Scanner(System.in);
+		System.out.println("Please enter the A value");
+		int math = quad.nextInt();
+		System.out.println("Please enter the B value");
+		int math2 = quad.nextInt();
 	}
 
 }
