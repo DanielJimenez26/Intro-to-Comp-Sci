@@ -29,9 +29,16 @@ public class Lesson_7_Programs {
 		
 		Scanner quad = new Scanner(System.in);
 		System.out.println("Please enter the A value");
-		int math = quad.nextInt();
+		double math = quad.nextDouble();
 		System.out.println("Please enter the B value");
-		int math2 = quad.nextInt();
+		double math2 = quad.nextDouble();
+		System.out.println("Please enter the C value");
+		double math3 = quad.nextDouble();
+		double math4 = (-math2 + Math.sqrt(Math.pow(math2, 2) - (4*math*math3))) / (2*math);
+		double math5 = (-math2 - Math.sqrt(Math.pow(math2, 2) - (4*math*math3))) / (2*math);
+		System.out.println("Plus" + " " + "=" + " " + math5);
+		System.out.println("Minus" + " " + "=" + " " + math4);
+		
 	}
 
 }
