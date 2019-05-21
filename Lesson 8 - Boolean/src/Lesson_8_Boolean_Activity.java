@@ -19,7 +19,10 @@ public class Lesson_8_Boolean_Activity {
 		boolean r = z == x;
 		System.out.println(r || false);
 		System.out.println(z!=x);
-		
+		int u = 6;
+		int b = 7;
+		boolean kDog=(u<b);
+		System.out.println(kDog);
 		
 	}
 
