@@ -24,6 +24,7 @@ public class Lesson_8_Boolean_Activity {
 		boolean kDog=(u<b);
 		System.out.println(kDog);
 		
+		
 	}
 
 }
