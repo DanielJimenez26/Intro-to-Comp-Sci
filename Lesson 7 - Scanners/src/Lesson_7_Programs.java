@@ -62,7 +62,9 @@ public class Lesson_7_Programs {
 //		System.out.println("What letter shall I find?");
 //		String name2 = name.nextLine();
 //		System.out.println("Your letter occurs at index" + " " + name1.indexOf(name2));
-//		
+		
+		
+		
 	}
 
 }
