@@ -4,17 +4,14 @@ public class Lesson_9_Notes {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-//		Scanner Person = new Scanner(System.in);
-//		System.out.println("Please enter your age");
-//		int age = Person.nextInt();
-//		if (age >= 18) {
-//			System.out.println("You are able to drive");
-//		}else{
-//			System.out.println("You are not able to drive");
-//		
-//		
-//		
-//		}
+		Scanner Person = new Scanner(System.in);
+		System.out.println("Please enter your age");
+		int age = Person.nextInt();
+		if (age >= 18) {
+			System.out.println("You are able to drive");
+		}else{
+			System.out.println("You are not able to drive");	
+		}
 		
 		Scanner UserInput = new Scanner(System.in);
 		System.out.println("Please enter your first number");
@@ -26,6 +23,7 @@ public class Lesson_9_Notes {
 		}else{
 			System.out.println("Sorry, that's wrong");
 		}
+		
 	}
 
 }

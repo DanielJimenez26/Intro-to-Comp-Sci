@@ -63,7 +63,15 @@ public class Lesson_7_Programs {
 //		String name2 = name.nextLine();
 //		System.out.println("Your letter occurs at index" + " " + name1.indexOf(name2));
 		
-		
+		Scanner ScanMan = new Scanner (System.in);
+		String s = "XRay";
+		System.out.println("Enter your password.");
+		String s1 = ScanMan.nextLine();
+		if (s1.equals(s)) {
+			System.out.println("Password entered successfully.");
+		}else{
+			System.out.println("Incorrect password.");
+		}
 		
 	}
 
